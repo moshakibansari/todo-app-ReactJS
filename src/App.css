@@ -6,7 +6,64 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+h1{
+  height: 47px;
+  background-color: #b168b1;
+  color: white;
+}
+.main_div{
+  background-color: cadetblue;
+  height: 820px;
+  display: block;
+}
+.center_div{
+  height: 450px;
+    width: 340px;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    text-align: center;
+}
+.input{
+  border: none;
+  border-bottom: 3px solid #b168b1;
+  outline: none;
+  font-size: 18px;
+  text-align: center;
+}
+ol{
+  list-style: none;
+  text-align: left;
+}
+.btn{
+  margin-left: 10px;
+  height: 38px;
+  width: 38px;
+  border-radius: 50%;
+  font-size: 29px;
+  background: #b168b1;
+  border: none;
+  color: white;
+}
+.btn:hover{
+  background-color: green;
+}
+ol{
+  font-size: 20px;
+    color: grey;
+    font-weight: 600;
+}
+.icon{
+  color: #b168b1;
+    margin-right: 11px;
+    
+}
+.icon:hover{
+  color: red;
+  font-size: 25px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -26,6 +83,23 @@
 
 .App-link {
   color: #61dafb;
+}
+@media screen and (max-width: 600px) {
+  .main_div{
+    background-color: cadetblue;
+    height: 820px;
+    display: block;
+  }
+  .center_div{
+    height: 450px;
+    width: 310px;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    top: 113px;
+    left: 32px;
+    text-align: center;
+  }
 }
 
 @keyframes App-logo-spin {
